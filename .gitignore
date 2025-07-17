@@ -1,0 +1,101 @@
+# Ignorer les fichiers de modèles PyTorch
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Ignorer les répertoires de modèles sauvegardés
+models/
+models_pkl/
+checkpoints/
+saved_models/
+
+# Ignorer les répertoires de données (brutes, traitées, embeddings, etc.)
+data/
+datasets/
+raw_data/
+processed_data/
+embeddings/
+features/
+data_npy/
+data_npy_vit/
+# Ignorer les sorties de visualisation ou d'analyse
+sae_neuron_visualizations/
+plots/
+figures/
+
+# Ignorer les environnements virtuels
+env/
+venv/
+.env/
+.conda/
+
+# Fichiers compilés Python, caches, et autres générés
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Fichiers de build et distribution Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+sdist/
+var/
+lib/          # Si créé à la racine du projet
+lib64/        # Si créé à la racine du projet
+
+# Fichiers de log et résultats d'expériences
+*.log
+temp/
+results/
+result_dataset/
+result_dataset_2/
+result_dataset_old/
+results_archives/
+outputs/
+
+# Fichiers spécifiques au système d'exploitation / éditeur
+.DS_Store           # macOS
+Thumbs.db           # Windows
+.vscode/            # Paramètres VS Code spécifiques à votre machine (souvent ignorés)
+*.swp               # Vim swap files
+*~                  # Backup files from some editors
+
+# Fichiers d'archive et de compression (si générés)
+*.zip
+*.tar
+*.gz
+
+# Fichiers de données tabulaires (si générés ou très volumineux)
+*.csv
+*.tsv
+*.json
+
+# Rapports de tests
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Documentation (si générée)
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
